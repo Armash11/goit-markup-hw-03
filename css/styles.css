@@ -117,7 +117,7 @@ body {
   margin-left: 332px;
 }
 
-.header-item {
+.header-contakts {
 }
 
 .header-link {
@@ -138,6 +138,7 @@ body {
 }
 
 .header-adress {
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 
