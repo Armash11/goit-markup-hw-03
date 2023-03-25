@@ -184,7 +184,7 @@ body {
   margin: 0 auto;
   border-radius: 4px;
   padding: 16px 32px;
-
+  border: none;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -292,6 +292,8 @@ body {
 .foto {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: var(--background-color);
 }
 
@@ -318,7 +320,7 @@ body {
 
 .foto-name {
   text-align: center;
-  padding: 16px 32px;
+  padding: 32px 16px;
   width: 264px;
 }
 /*-------------------Footer------------------*/
@@ -401,9 +403,8 @@ button {
   display: flex;
   gap: 24px;
   justify-content: center;
-
   padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .service-btn {
   border-radius: 4px;
@@ -426,10 +427,7 @@ button {
   background-color: #404bbf;
 }
 
-/*--------------Section 2---------------*/
-
-.project {
-}
+/*--------------Projects---------------*/
 
 .project-list {
   display: flex;
@@ -441,7 +439,6 @@ button {
 .project-items {
   width: calc((100% - 48px) / 3);
   margin-right: 0;
-  border: 1px solid #e7e9fc;
 }
 
 .project-img {
@@ -469,5 +466,7 @@ button {
   color: var(--text-color);
 }
 .project-name {
-  padding: 32px 54px 32px 16px;
+  padding: 32px 16px 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
